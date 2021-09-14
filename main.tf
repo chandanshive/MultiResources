@@ -201,3 +201,19 @@ resource "aws_s3_bucket" "accuricsbucketdemo25" {
     Name = "bucketdemo25"
   }
 }
+
+resource "aws_s3_bucket" "accuricsbucketdemo26" {
+  bucket = "my-tf-test-bucket26"
+
+  tags = {
+    Name = "bucketdemo26"
+  }
+}
+
+resource "aws_s3_bucket" "accuricsbucketdemo27" {
+  bucket = "my-tf-test-bucket27"
+
+  tags = {
+    Name = "bucketdemo27"
+  }
+}
